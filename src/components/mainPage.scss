@@ -1,0 +1,271 @@
+.main {
+  height: 100vh;
+  overflow-y: auto;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  object-fit: cover;
+}
+@keyframes imgFade {
+  0% {
+    opacity: 0;
+    background-position: center;
+  }
+  50% {
+    opacity: 0.7;
+    background: transparent;
+    background-size: cover;
+    background-position: center;
+  }
+  100% {
+    opacity: 1;
+    background: transparent;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.main_start {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: imgFade 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  @media (max-width: 1100px) {
+    position: sticky;
+    bottom: 0;
+  }
+}
+
+.arrow {
+  margin-top: 60px;
+}
+
+.date {
+  font-family: Sans, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  margin-top: 6px;
+  text-align: center;
+  &_number {
+    font-size: 48px;
+    font-weight: 500;
+  }
+  @media (max-width: 680px) {
+    // padding: 24px;
+    // margin-top: 0px;
+    font-size: 24px;
+  }
+}
+
+.invitation {
+  font-family: Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  @media (max-width: 680px) {
+    padding: 24px;
+    margin-top: 0px;
+    font-size: 24px;
+  }
+}
+
+.main_all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.text {
+  font-family: Sans, serif;
+  font-size: 24px;
+  margin-top: 30px;
+  text-align: center;
+  @media (max-width: 680px) {
+    padding: 24px;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+}
+
+.month {
+  font-family: Sans, serif;
+  font-size: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.month_container {
+  width: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  gap: 16px;
+  position: relative;
+  top: 20px;
+  & :first-child {
+    justify-content: flex-end;
+  }
+}
+
+.week_container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.title {
+  font-family: Sans, serif;
+  font-size: 84px;
+  margin-top: 30px;
+  text-align: center;
+  @media (max-width: 680px) {
+    padding: 24px;
+    font-size: 52px;
+    margin-top: 0px;
+  }
+}
+
+.appeal {
+  font-family: Sans, serif;
+  font-size: 48px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.button_location {
+  padding: 10px;
+  background: #bca08a;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  margin-top: 12px;
+  margin-bottom: 60px;
+  &:hover {
+    background-color: #3f352b;
+    cursor: pointer;
+  }
+  @media (max-width: 680px) {
+    margin-bottom: 10px;
+  }
+}
+
+.form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 24px;
+  @media (max-width: 680px) {
+    padding: 24px;
+  }
+}
+
+.form-text {
+  font-family: Sans, serif;
+  font-size: 24px;
+  @media (max-width: 680px) {
+    font-size: 20px;
+  }
+}
+
+.form_input {
+  display: block;
+  height: 36px;
+  width: 100%;
+  border-color: transparent;
+  border-bottom: 2px solid #3e554f;
+  background-color: transparent;
+  box-shadow: none;
+  &:focus {
+    border-color: transparent;
+    border-bottom: 2px solid #3e554f;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.form-control {
+  font-family: Sans, serif;
+  font-size: 24px;
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  @media (max-width: 680px) {
+    font-size: 20px;
+  }
+}
+
+input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  border-radius: 50%;
+  height: 20px;
+  display: grid;
+  place-content: center;
+  color: #3e554f;
+  border: 1px solid grey;
+  &:checked {
+    border: 1px solid #273632;
+    &::before {
+      transform: scale(1);
+    }
+  }
+  &::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #3e554f;
+  }
+}
+
+.divider {
+  width: 100%;
+  height: 80px;
+  margin: 50px 0;
+  @media (max-width: 680px) {
+    height: 50px;
+    margin: 30px 0;
+  }
+}
+
+.wedding_day {
+  position: absolute;
+  top: -2px;
+  right: 46px;
+}
+
+.children {
+  margin-top: 20px;
+  & g {
+    fill: #3f352b;
+  }
+}

@@ -1,0 +1,18 @@
+.names {
+  font-family: Denistina, serif;
+  width: 50%;
+  margin-top: 60px;
+  & svg {
+    fill: #3e554f;
+    stroke: #3e554f;
+  }
+
+  @media (max-width: 660px) {
+    width: 96%;
+    align-self: end;
+    margin-top: 20px;
+  }
+  @media (max-width: 1100px) {
+    top: 50%;
+  }
+}
