@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alexander-and-ekaterina/static/css/main.38c12278.css",
-    "main.js": "/alexander-and-ekaterina/static/js/main.f4ab4b61.js",
+    "main.js": "/alexander-and-ekaterina/static/js/main.003e6bcc.js",
     "static/js/787.0cf6bc9b.chunk.js": "/alexander-and-ekaterina/static/js/787.0cf6bc9b.chunk.js",
     "static/media/background.mp4": "/alexander-and-ekaterina/static/media/background.7a74407a8b8617c5bebd.mp4",
     "static/media/Great.ttf": "/alexander-and-ekaterina/static/media/Great.f51f1a4f2cd0c9611249.ttf",
@@ -17,11 +17,11 @@
     "static/media/arrow.svg": "/alexander-and-ekaterina/static/media/arrow.16bbabc808296e3c2f75b1663b82c119.svg",
     "static/media/heart.svg": "/alexander-and-ekaterina/static/media/heart.61d2e504e4706c801be953b08c320f11.svg",
     "main.38c12278.css.map": "/alexander-and-ekaterina/static/css/main.38c12278.css.map",
-    "main.f4ab4b61.js.map": "/alexander-and-ekaterina/static/js/main.f4ab4b61.js.map",
+    "main.003e6bcc.js.map": "/alexander-and-ekaterina/static/js/main.003e6bcc.js.map",
     "787.0cf6bc9b.chunk.js.map": "/alexander-and-ekaterina/static/js/787.0cf6bc9b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38c12278.css",
-    "static/js/main.f4ab4b61.js"
+    "static/js/main.003e6bcc.js"
   ]
 }
