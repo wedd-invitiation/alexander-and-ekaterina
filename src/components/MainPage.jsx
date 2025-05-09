@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Names } from "./Names/Names";
 import "./mainPage.scss";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { Hearts } from "react-loader-spinner";
 import { ReactComponent as Heart } from "../images/heart.svg";
 import { ReactComponent as Location } from "../images/location.svg";
 import { ReactComponent as Children } from "../images/children.svg";
@@ -71,13 +72,35 @@ const textVariants = {
 };
 
 export const MainPage = () => {
+  const [loader, setLoader] = useState(true);
   const handleClickLocation = () => {
     window.open(
       "https://yandex.ru/maps/org/leninskiye_gorki/54697041043/?ll=48.410740%2C54.311849&z=17.05"
     );
   };
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoader(false);
+    }, 1000);
+  }, []);
+
   return (
     <>
+      {loader && (
+        <div className="loader">
+          <Hearts
+            height="80"
+            width="80"
+            color="#F08080"
+            ariaLabel="hearts-loading"
+            wrapperStyle={{}}
+            wrapperClass=""
+            visible={true}
+          />
+        </div>
+      )}
+
       <video autoPlay muted loop playsInline id="myVideo">
         <source src={videoBackground} type="video/mp4" />
       </video>

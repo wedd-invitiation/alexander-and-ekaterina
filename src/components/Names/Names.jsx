@@ -36,8 +36,8 @@ const characterAnimation = {
   visible: {
     opacity: 1,
     transition: {
-      duration: 2.5,
-      ease: [0.17, 0.67, 0.83, 0.67],
+      duration: 0.5,
+      ease: [0.5, 0.67, 0.83, 1],
     },
   },
 };
