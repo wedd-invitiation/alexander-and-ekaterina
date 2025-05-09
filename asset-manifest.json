@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alexander-and-ekaterina/static/css/main.0e560bcd.css",
-    "main.js": "/alexander-and-ekaterina/static/js/main.dc92b2aa.js",
+    "main.css": "/alexander-and-ekaterina/static/css/main.588f858c.css",
+    "main.js": "/alexander-and-ekaterina/static/js/main.d54996ca.js",
     "static/js/787.0cf6bc9b.chunk.js": "/alexander-and-ekaterina/static/js/787.0cf6bc9b.chunk.js",
     "static/media/background.mp4": "/alexander-and-ekaterina/static/media/background.7a74407a8b8617c5bebd.mp4",
     "static/media/Great.ttf": "/alexander-and-ekaterina/static/media/Great.f51f1a4f2cd0c9611249.ttf",
@@ -14,13 +14,14 @@
     "static/media/children.svg": "/alexander-and-ekaterina/static/media/children.a9dabcacf2751b2affcae24fb48b998b.svg",
     "static/media/location.svg": "/alexander-and-ekaterina/static/media/location.50e3f4a54c711ca9d8b32d4123248be5.svg",
     "index.html": "/alexander-and-ekaterina/index.html",
+    "static/media/arrow.svg": "/alexander-and-ekaterina/static/media/arrow.16bbabc808296e3c2f75b1663b82c119.svg",
     "static/media/heart.svg": "/alexander-and-ekaterina/static/media/heart.61d2e504e4706c801be953b08c320f11.svg",
-    "main.0e560bcd.css.map": "/alexander-and-ekaterina/static/css/main.0e560bcd.css.map",
-    "main.dc92b2aa.js.map": "/alexander-and-ekaterina/static/js/main.dc92b2aa.js.map",
+    "main.588f858c.css.map": "/alexander-and-ekaterina/static/css/main.588f858c.css.map",
+    "main.d54996ca.js.map": "/alexander-and-ekaterina/static/js/main.d54996ca.js.map",
     "787.0cf6bc9b.chunk.js.map": "/alexander-and-ekaterina/static/js/787.0cf6bc9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e560bcd.css",
-    "static/js/main.dc92b2aa.js"
+    "static/css/main.588f858c.css",
+    "static/js/main.d54996ca.js"
   ]
 }
