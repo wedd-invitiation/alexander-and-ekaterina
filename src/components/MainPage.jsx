@@ -7,6 +7,7 @@ import { ReactComponent as Heart } from "../images/heart.svg";
 import { ReactComponent as Location } from "../images/location.svg";
 import { ReactComponent as Children } from "../images/children.svg";
 import { ReactComponent as Divider } from "../images/divider.svg";
+import { ReactComponent as Arrow } from "../images/arrow.svg";
 import { CountDown } from "./CountDown/CountDown";
 import videoBackground from "../images/background.mp4";
 
@@ -69,19 +70,6 @@ const textVariants = {
   },
 };
 
-const busVariants = {
-  offscreen: {
-    x: "100%",
-  },
-  onscreen: {
-    x: "0%",
-    transition: {
-      delay: 0.3,
-      duration: 1,
-    },
-  },
-};
-
 export const MainPage = () => {
   const handleClickLocation = () => {
     window.open(
@@ -111,12 +99,7 @@ export const MainPage = () => {
               repeat: Infinity,
             }}
           >
-            <img
-              alt="Aleksander and Ekaterina"
-              width="48px"
-              height="32px"
-              src="https://static.tildacdn.com/tild3764-3337-4432-b961-316366353332/Frame_1123.png"
-            />
+            <Arrow />
           </FlexCenter>
         </div>
 

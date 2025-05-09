@@ -54,7 +54,14 @@
 }
 
 .arrow {
-  margin-top: 60px;
+  margin-top: 40px;
+  & svg {
+    width: 48px;
+    height: 32px;
+    & g {
+      fill: #3f352b;
+    }
+  }
 }
 
 .date {
