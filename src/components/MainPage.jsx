@@ -128,8 +128,8 @@ export const MainPage = () => {
             viewport={{ once: true, amount: 1 }}
             className="text"
           >
-            «Счастье – это когда ты нашел того, кто искал тебя». Этот день
-            станет началом нашей долгой и счастливой семейной жизни.
+            «Счастье – это когда ты нашел того, кто искал тебя». <br /> Этот
+            день станет началом нашей долгой и счастливой семейной жизни.
           </motion.div>
           <motion.div
             variants={textVariants}
@@ -137,7 +137,7 @@ export const MainPage = () => {
             whileInView="onscreen"
             viewport={{ once: true, amount: 1 }}
             className="text"
-            style={{ fontWeight: 700, marginLeft: "6px" }}
+            style={{ fontWeight: 600, marginLeft: "6px" }}
           >
             Мы приглашаем Вас на торжество, посвященное нашей свадьбе.
           </motion.div>
@@ -219,9 +219,6 @@ export const MainPage = () => {
           <button className="button_location" onClick={handleClickLocation}>
             Как добраться?
           </button>
-
-          <CountDown date={new Date("Sat, 6 Sep 2025 15:30:00")} />
-
           <motion.div
             variants={titleVariants}
             initial="offscreen"
@@ -259,6 +256,8 @@ export const MainPage = () => {
           >
             С любовью, <br /> Александр и Екатерина
           </motion.div>
+
+          <CountDown date={new Date("Sat, 6 Sep 2025 00:00:00")} />
         </div>
       </div>
     </>

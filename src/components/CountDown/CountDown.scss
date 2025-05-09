@@ -63,7 +63,11 @@
     width: 100%;
     background-position: 50% 0%;
     background-image: url("../../images/we.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     filter: blur(2px) brightness(50%);
+    @media (max-width: 680px) {
+      background-size: cover;
+    }
   }
 }
