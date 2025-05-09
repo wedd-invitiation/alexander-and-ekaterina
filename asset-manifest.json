@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/alexander-and-ekaterina/static/css/main.9902193e.css",
+    "main.js": "/alexander-and-ekaterina/static/js/main.ceb153f2.js",
+    "static/js/787.0cf6bc9b.chunk.js": "/alexander-and-ekaterina/static/js/787.0cf6bc9b.chunk.js",
+    "static/media/background.mp4": "/alexander-and-ekaterina/static/media/background.7a74407a8b8617c5bebd.mp4",
+    "static/media/Great.ttf": "/alexander-and-ekaterina/static/media/Great.f51f1a4f2cd0c9611249.ttf",
+    "static/media/Forum.ttf": "/alexander-and-ekaterina/static/media/Forum.f30a601a7c9404d77b8e.ttf",
+    "static/media/we.jpg": "/alexander-and-ekaterina/static/media/we.99cc4c2a4354eef07b03.jpg",
+    "static/media/Sans.ttf": "/alexander-and-ekaterina/static/media/Sans.22b8b72db2ebdc82a72b.ttf",
+    "static/media/Lazurski.ttf": "/alexander-and-ekaterina/static/media/Lazurski.db8a8af6719068a29d95.ttf",
+    "static/media/Denistina.ttf": "/alexander-and-ekaterina/static/media/Denistina.5267cea436980e4e189b.ttf",
+    "static/media/divider.svg": "/alexander-and-ekaterina/static/media/divider.b5274ddfa758a1523e25e16bc3ab2614.svg",
+    "static/media/children.svg": "/alexander-and-ekaterina/static/media/children.a9dabcacf2751b2affcae24fb48b998b.svg",
+    "static/media/location.svg": "/alexander-and-ekaterina/static/media/location.50e3f4a54c711ca9d8b32d4123248be5.svg",
+    "index.html": "/alexander-and-ekaterina/index.html",
+    "static/media/heart.svg": "/alexander-and-ekaterina/static/media/heart.61d2e504e4706c801be953b08c320f11.svg",
+    "main.9902193e.css.map": "/alexander-and-ekaterina/static/css/main.9902193e.css.map",
+    "main.ceb153f2.js.map": "/alexander-and-ekaterina/static/js/main.ceb153f2.js.map",
+    "787.0cf6bc9b.chunk.js.map": "/alexander-and-ekaterina/static/js/787.0cf6bc9b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9902193e.css",
+    "static/js/main.ceb153f2.js"
+  ]
+}
